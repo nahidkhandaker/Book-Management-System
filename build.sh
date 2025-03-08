@@ -14,5 +14,8 @@ pip install -r requirements.txt
 # Run database migrations
 python manage.py migrate
 
+# Create a superuser
+python manage.py createsuperuser
+
 # Start the Django development server
 python manage.py runserver
